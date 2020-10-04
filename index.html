@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website to showcase the work of Ethan Pervere.">
+    <title>Ethan Pervere</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+</head>
+<body>
+
+<div id="layout" class="content pure-g">
+    <div id="nav" class="pure-u-1-6">
+        <div class="nav-inner">
+            <div class="pure-menu">
+                <h1 class="center">Ethan Pervere</h1>
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item pure-menu-item-selected"><a href="index.html" class="pure-menu-link">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="list" class="pure-u-1-3">
+        <div class="email-item pure-g">
+            <div class="pure-u-3-4">
+                <h4 class="email-subject"><a href="#goaltracker">Goal Tracker Website</a></h4>
+                <p class="email-desc">
+                </p>
+            </div>
+        </div>
+
+        <div class="email-item pure-g">
+            <div class="pure-u-3-4">
+                <h4 class="email-subject"><a href="#edgedetect">Image Edge Detection Project</a></h4>
+                <p class="email-desc">
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="main" class="pure-u-1-2">
+        <div id="goaltracker" class="email-content">
+            <div class="email-content-header pure-g">
+                <div class="pure-u-1-2">
+                    <h1 class="email-content-title">Goal Tracker</h1>
+                </div>
+
+                <div class="email-content-controls pure-u-1-2">
+                    <a href="https://goaltracker001.herokuapp.com/" class="secondary-button pure-button">Live</a>
+                    <a href="https://github.com/ethanpvr18/GoalTracker" class="secondary-button pure-button">Code</a>
+                </div>
+            </div>
+
+            <div class="email-content-body">
+                <h1>What is Goal Tracker ?</h1>
+                <p>
+                    Goal Tracker is a Web App where you can enter goals you want to accomplish. Then you can enter goal logs to keep track of your progress until you reach your goal. Goal Tracker is unlike any other goal tracker app because you can have more control over your goal. Meaning you can see a cumulative score of your progress on every goal you make.
+                </p>
+                <h1>Tools:</h1>
+                <ul>                 
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>PugJS</li>
+                    <li>MongooseJS</li>
+                    <li>MongoDB Atlas</li>
+                </ul>
+                <h1>Images:</h1>
+                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="gallery-cell image1"><img src="img/1.png"></div>
+                    <div class="gallery-cell image2"><img src="img/2.png"></div>
+                    <div class="gallery-cell image3"><img src="img/3.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="main" class="pure-u-1-2">
+        <div id="edgedetect" class="email-content">
+            <div class="email-content-header pure-g">
+                <div class="pure-u-1-2">
+                    <h1 class="email-content-title">Image Edge Detection Project</h1>
+                </div>
+
+                <div class="email-content-controls pure-u-1-2">
+                    <a href="https://github.com/ethanpvr18/EdgeDetectionAlgorithim" class="secondary-button pure-button">Code</a>
+                </div>
+            </div>
+
+            <div class="email-content-body">
+                <h1>About</h1>
+                <p>
+                    This Algorithm made with the Java Language takes in a image and computes where the edges in the image are by looking at the contrast difference between pixels in a Brute Force style where it goes row by row, column by column.                
+                </p>
+                <h1>Tools:</h1>
+                <ul>                 
+                    <li>Java</li>
+                </ul>
+                <h1>Images:</h1>
+                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="gallery-cell image1"><img src="img/before.png"></div>
+                    <div class="gallery-cell image2"><img src="img/after.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
